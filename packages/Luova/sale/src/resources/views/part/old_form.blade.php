@@ -1,0 +1,32 @@
+
+@foreach($rows as $i => $row)
+
+
+<tr id="{{'row-'.$i}}">
+    <td>
+        <button class="btn btn-danger btn-sm removeRow" style="margin-top: 7px;" type="button" data-id="{{$i}}">
+            <span class="material-icons"> remove_circle </span>
+        </button>
+    </td>
+    <td>
+        {{ Form::select('item['.$i.'][product]',  productFA(),  $row['product'] ,
+            ['class' => (($errors->has('item.'.$i.'.product'))?'is-invalid ':'' ).' form-control select2', 'placeholder' => ' Select Product','onchange'=>'selectProduct(this);']) }}
+
+    </td>
+    <td></td>
+    <td class="input-group">
+        {{ Form::number('item['.$i.'][qty]', $row['qty'] , ['class' =>(($errors->has('item.'.$i.'.qty'))?'is-invalid ':'' ).'  form-control item-qty', 'onkeyup'=>'insertQty(this);', 'readonly' => ($row['product'])?false:true, 'step' => 'any' ]) }}
+        <div class="input-group-prepend">
+            <span class="input-group-text item-unit"></span>
+        </div>
+    </td>
+
+    <td>
+        {{ Form::number('item['.$i.'][rate]', $row['rate'] , ['class' => (($errors->has('item.'.$i.'.rate'))?'is-invalid ':'' ).'  form-control item-rate',  'onkeyup'=>'insertRate(this);','readonly' => ($row['product'])?false:true, 'step' => 'any' ]) }}
+    </td>
+    <td>
+        {{ Form::number('item['.$i.'][total]', $row['total'] , ['class' => (($errors->has('item.'.$i.'.total'))?'is-invalid ':'' ).'  form-control item-total','readonly' => true ]) }}
+    </td>
+
+</tr>
+@endforeach

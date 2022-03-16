@@ -1,0 +1,455 @@
+.logo img {
+  width: 120px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+#main-header {
+  background: #0d1440;
+  color: #fff;
+}
+.school-name h2 {
+  padding-top: 25px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.school-name h4 {
+  padding-left: 15px;
+}
+
+#main-header .stellarnav ul {
+  text-align: left;
+}
+
+.mainbody {
+  box-shadow: 0px 0px 9px #b8b8b8;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}
+
+.owl-next {
+  right: 0;
+}
+.owl-prev {
+  left: 0;
+}
+
+.owl-next,
+.owl-prev {
+  position: absolute;
+  font-size: 30px !important;
+  background: #0d1440a8 !important;
+  width: 50px;
+  height: 50px;
+  color: #fff !important;
+}
+
+.card.sidebar-card {
+  margin-bottom: 15px;
+}
+.card.sidebar-card .card-header {
+  background: #0d1440;
+  color: #fff;
+}
+
+footer.main-footer {
+  background: #0d1440;
+  padding-top: 30px;
+}
+footer.main-footer a {
+  color: #fff;
+}
+
+.stellarnav.mobile.left > ul,
+.stellarnav.mobile.right > ul {
+  z-index: 9;
+}
+.stellarnav > ul > li > a {
+  padding: 20px 20px !important;
+}
+.page-header {
+  text-align: center;
+  margin-top: 25px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.page-header-inner {
+  display: inline-block;
+  border-bottom: 6px double #0d1440;
+  padding: 0 20px;
+}
+
+.page-header h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.page-header h3 {
+  font-size: 16px;
+  color: #333;
+}
+.page-not-found {
+  text-align: center;
+  margin: 150px 0;
+  color: #707070;
+}
+.page-not-found h2 {
+  font-size: 150px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  line-height: 103px;
+}
+.page-not-found h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.page-not-found p {
+  font-size: 14px;
+}
+
+ul.notice-list {
+  list-style: none;
+  padding-left: 0;
+}
+ul.notice-list li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+ul.notice-list li::before {
+  color: #0d1440;
+  content: "\f101";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 15px;
+  left: 0;
+  margin-left: 5px;
+  margin-right: 8px;
+  position: absolute;
+}
+ul.notice-list a {
+  color: #0d1440;
+}
+ul.notice-list a:hover {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+/*--------------------------------------------------------------
+# Photo-gallary-area css
+--------------------------------------------------------------*/
+.img-gallery img {
+  width: 100%;
+}
+
+h2.section-header {
+  background: #0d1440;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px 15px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.section-footer {
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.section-footer a {
+  background: #0d1440;
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.title-gallery {
+  background: #000;
+  margin-bottom: 30px;
+}
+
+.title-gallery a {
+  color: #fff;
+  padding: 3px 5px;
+  display: block;
+  text-align: left;
+}
+
+/*--------------------------------------------------------------
+# notice area css
+--------------------------------------------------------------*/
+.section-title h2 {
+  background: hsl(214, 63%, 37%) none repeat scroll 0 0;
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 7px 10px;
+}
+
+.notice_haf {
+  background: rgb(202, 232, 229);
+  background: -moz-linear-gradient(
+    349deg,
+    rgba(202, 232, 229, 0.8) 42%,
+    rgba(158, 191, 233, 0.8) 63%
+  );
+  background: -webkit-linear-gradient(
+    349deg,
+    rgba(202, 232, 229, 0.8) 42%,
+    rgba(158, 191, 233, 0.8) 63%
+  );
+  background: linear-gradient(
+    349deg,
+    rgba(202, 232, 229, 0.8) 42%,
+    rgba(158, 191, 233, 0.8) 63%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cae8e5",endColorstr="#9ebfe9",GradientType=1);
+}
+
+.notice-one {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 140px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  margin-top: 3px;
+  position: relative;
+}
+.notice-caption h3 {
+  color: #181818;
+  font-size: 22px;
+  margin: 8px 20px;
+  height: 23px;
+  overflow: hidden;
+  font-weight: bold;
+}
+.notice-list {
+  margin-top: 10px;
+}
+
+.notice-list ul li {
+  border-bottom: 1px dotted #23579b;
+  line-height: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.notice-list ul li:after {
+  position: absolute;
+  content: "\f18e";
+  font-family: fontawesome;
+  left: 3px;
+  top: 5px;
+  color: #23579b;
+  font-size: 14px;
+}
+
+.notice-list ul li a {
+  color: #333;
+  display: block;
+  font-size: 13px;
+  margin: 0px 20px;
+  text-decoration: blink;
+  padding: 4px 8px;
+  position: relative;
+}
+.notice-list ul li:hover {
+  color: #333;
+  background: #e6fbd9;
+  border-color: #e6fbd9;
+}
+
+.notice-list ul li a:after {
+  position: absolute;
+  top: 12;
+  right: 0px;
+  width: 40px;
+  height: 16px;
+  line-height: 16px;
+  content: "New";
+  background: #c40a2a;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  animation: example 2s infinite;
+  opacity: 0;
+}
+
+.notice-list ul li:first-child a:after {
+  opacity: 1;
+}
+.notice-list ul li:nth-child(2) a:after {
+  opacity: 1;
+}
+.notice-list ul li:nth-child(3) a:after {
+  opacity: 1;
+}
+
+.notice-btn {
+  display: block;
+  padding-top: 14px;
+  text-align: right;
+}
+.notice-btn a {
+  display: inline-block;
+  color: #fff;
+  background: #777;
+  padding: 2px 8px;
+  text-decoration: none;
+  text-align: right;
+}
+/*--------------------------------------------------------------
+# video-gallary-area css
+--------------------------------------------------------------*/
+.videoGallery {
+  overflow: hidden;
+}
+.vid-container {
+  width: 80%;
+  float: left;
+}
+.vid-list-container {
+  width: 20%;
+  float: left;
+  height: 400px;
+  overflow: auto;
+}
+.videoGallery.gap {
+  /*padding: 15px 0;*/
+}
+.vid-list-container .desc {
+  line-height: 17px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-top: 7px;
+}
+/*--------------------------------------------------------------
+# facebook css
+--------------------------------------------------------------*/
+
+iframe {
+  width: 100%;
+}
+
+/*--------------------------------------------------------------
+# news-marquee css
+--------------------------------------------------------------*/
+
+.news-marquee {
+  position: relative;
+}
+.news-btn {
+  position: absolute;
+}
+.news-btn a {
+  background: hsl(0, 0%, 40%) none repeat scroll 0 0;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  padding: 4px 15px;
+}
+.news-btn {
+  position: absolute;
+  right: 16px;
+  top: 27px;
+}
+.news-marquee {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.ptms_marquee.news-marquee {
+  padding: 6px !important;
+}
+.ptms_marquee ul li {
+  display: inline-block;
+  margin-right: 50px;
+  position: relative;
+}
+.ptms_marquee ul li:after {
+  position: absolute;
+  content: "";
+  background: hsl(84, 77%, 33%) none repeat scroll 0 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  top: 4px;
+  left: -25px;
+}
+.news-gbtn {
+  text-align: center;
+  display: inline-block;
+  background: hsl(214, 63%, 37%) none repeat scroll 0 0;
+  width: 10%;
+  float: right;
+  padding: 4px;
+  border: 1px solid #eee;
+  border-bottom: none;
+  border-top: none;
+}
+.news-gbtn a:hover {
+  color: #fff;
+}
+.news-gbtn a {
+  color: #fff;
+}
+.ptms_marquee {
+  width: 90%;
+  float: left;
+  margin-bottom: -11px;
+}
+/*--------------------------------------------------------------
+# marqueeContent css
+--------------------------------------------------------------*/
+.marqueeContent {
+  border: 1px solid hsl(0, 0%, 93%);
+  float: left;
+  height: auto;
+  padding: 0px 0;
+  width: 100%;
+  margin: 2px 0px;
+  background: #dcc4c1;
+}
+.marqueeContent a {
+  color: #000;
+  font-size: 13px;
+}
+
+.news-gbtn a {
+  color: #fff;
+  font-size: 16px;
+}
+
+#example ul li {
+  color: #555;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 991px) {
+  .news-gbtn {
+    display: none;
+  }
+
+  .news-gbtn {
+    display: none !important;
+  }
+
+  .notice-one {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    background: inherit !important;
+  }
+}

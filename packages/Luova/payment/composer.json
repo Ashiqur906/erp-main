@@ -1,0 +1,22 @@
+{
+  "name": "luova/payment",
+  "description": "This will payment pagckage",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammad Hasan",
+      "email": "hm91hassan@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+  
+  },
+ 
+  "autoload": {
+    "psr-4": {
+      "Luova\\Payment\\": "src/"
+    }
+  }
+}

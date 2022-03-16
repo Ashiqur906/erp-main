@@ -1,0 +1,19 @@
+{
+  "name": "luova/makeup",
+  "description": "Luova setting package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammad Hasan",
+      "email": "hm91hassan@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Luova\\Makeup\\": "src/"
+    }
+  }
+}

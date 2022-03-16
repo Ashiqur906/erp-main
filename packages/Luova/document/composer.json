@@ -1,0 +1,19 @@
+{
+	"name": "luova/option",
+	"description": "This will create option to admin and save option guery in database",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mohammad Hasan",
+			"email": "hm91hassan@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Luova\\Option\\": "src/"
+		}
+	}
+}

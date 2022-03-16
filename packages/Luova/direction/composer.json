@@ -1,0 +1,19 @@
+{
+  "name": "luova/direction",
+  "description": "This will create direction to admin and save direction guery in database",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammad Hasan",
+      "email": "hm91hassan@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Luova\\Direction\\": "src/"
+    }
+  }
+}

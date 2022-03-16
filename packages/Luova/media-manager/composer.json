@@ -1,0 +1,51 @@
+{
+    "name": "ctf0/media-manager",
+    "description": "A Media Manager Built With Vuejs & Laravel",
+    "homepage": "https://github.com/ctf0/Laravel-Media-Manager",
+    "license": "MIT",
+    "keywords": [
+        "ctf0",
+        "media",
+        "manager",
+        "laravel",
+        "gui",
+        "MediaManager"
+    ],
+    "authors": [
+        {
+            "name": "Muah",
+            "email": "muah003@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.0",
+        "illuminate/support": "^6.0 || ^7.0",
+        "maennchen/zipstream-php": ">=1.0",
+        "ctf0/package-changelog": "*",
+        "jhofm/flysystem-iterator": "^2.2"
+    },
+    "suggest": {
+        "league/flysystem-cached-adapter": "Required to use the Flysystem cache (~1.0)."
+    },
+    "autoload": {
+        "psr-4": {
+            "ctf0\\MediaManager\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ctf0\\MediaManager\\MediaManagerServiceProvider"
+            ]
+        },
+        "changeLog": "logs"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "post-package-install": [
+            "@php artisan vendor:publish --provider=\"ctf0\\MediaManager\\MediaManagerServiceProvider\""
+        ]
+    }
+}

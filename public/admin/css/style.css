@@ -1,0 +1,214 @@
+ul.admin-nav-list {
+  list-style: none;
+  padding-left: 0;
+}
+ul.admin-nav-list li {
+  font-size: 16px;
+  padding: 5px;
+}
+ul.admin-nav-list li a {
+  color: #343a40;
+}
+ul.admin-nav-list li span {
+  font-size: 20px;
+}
+
+.material-icons {
+  vertical-align: middle;
+  font-size: 22px;
+}
+
+a.nav-link.admin-nav {
+  background: #343a40;
+  border-radius: 20px 0 0 20px;
+  color: #fff !important;
+  margin-left: 20px;
+}
+.admin-nav img {
+  width: 30px;
+  margin-top: -2px;
+  display: inline-flex;
+}
+ul.admin-nav-list li a:hover {
+  text-decoration: none;
+}
+ul.admin-nav-list li:hover {
+  background: gray;
+}
+
+.login-logo {
+  background: #3d9970;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+p.login-box-msg {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active,
+.sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
+  background-color: #ffffff3d;
+  color: #ffffff;
+}
+.navbar-badge {
+  margin-top: -8px;
+  margin-right: -7px;
+}
+
+table.dataTable thead .sorting {
+  background-image: inherit !important;
+}
+table.dataTable thead .sorting_asc {
+  background-image: inherit !important;
+}
+table.dataTable thead .sorting_desc {
+  background-image: inherit !important;
+}
+table.dataTable thead th,
+table.dataTable thead td {
+  padding: 2px 15px !important;
+  border-bottom: 0 !important;
+  vertical-align: middle;
+  background: #6c757d;
+  color: #ffffff;
+}
+table.dataTable tfoot th,
+table.dataTable tfoot td {
+  border-top: 0 !important;
+}
+table.dataTable.no-footer {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+a.dt-button:hover:not(.disabled),
+a.dt-button {
+  background-image: inherit !important;
+}
+
+a.dt-button.btn-success {
+  color: #fff !important;
+  background-color: #38c172 !important;
+  border-color: #38c172 !important;
+}
+
+a.dt-button.btn-success:hover:not(.disabled) {
+  color: #fff !important;
+  background-color: #2fa360 !important;
+  border-color: #2d995b !important;
+}
+
+a.dt-button.btn-warning {
+  color: #212529 !important;
+  background-color: #ffc107 !important;
+  border-color: #ffc107 !important;
+}
+
+a.dt-button.btn-warning:hover:not(.disabled) {
+  color: #212529 !important;
+  background-color: #ffe924 !important;
+  border-color: #ffe817 !important;
+}
+
+a.dt-button.btn-danger {
+  color: #fff !important;
+  background-color: #e3342f !important;
+  border-color: #e3342f !important;
+}
+
+a.dt-button.btn-danger:hover:not(.disabled) {
+  color: #fff !important;
+  background-color: #d0211c !important;
+  border-color: #c51f1a !important;
+}
+
+a.dt-button.btn-info {
+  color: #212529 !important;
+  background-color: #6cb2eb !important;
+  border-color: #6cb2eb !important;
+}
+
+a.dt-button.btn-info:hover:not(.disabled) {
+  color: #fff !important;
+  background-color: #4aa0e6 !important;
+  border-color: #3f9ae5 !important;
+}
+
+a.dt-button.btn-secondary {
+  color: #fff !important;
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+
+a.dt-button.btn-secondary:hover:not(.disabled) {
+  color: #fff !important;
+  background-color: #5a6268 !important;
+  border-color: #545b62 !important;
+}
+
+a.dt-button.btn-primary {
+  color: #fff !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+a.dt-button.btn-primary:hover:not(.disabled) {
+  color: #fff !important;
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important;
+}
+
+a.dt-button.btn-default {
+  color: #444 !important;
+  background-color: #f8f9fa !important;
+  border-color: #ddd !important;
+}
+
+a.dt-button.btn-default:hover:not(.disabled) {
+  color: #2b2b2b !important;
+  background-color: #e9ecef !important;
+  border-color: #ddd !important;
+}
+.dataTables_wrapper .dataTables_filter input {
+  outline: none;
+}
+
+.select2-container .select2-selection--single {
+  height: calc(1.6em + 0.75rem + 2px) !important;
+}
+
+#load_file {
+  display: inline-flex;
+}
+#load_file .drop_img {
+  display: block;
+  max-width: 175px;
+  padding: 0 10px;
+}
+#load_featured .drop_img {
+  display: block;
+}
+.drop_img button {
+  width: 100%;
+  margin-top: 5px;
+}
+.drop_img button {
+  width: 100%;
+  margin: 5px 0 15px;
+}
+/* .dropzone {
+  background: white;
+  border-radius: 5px;
+  border: 2px dashed rgb(0, 135, 247);
+  border-image: none;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+table.dataTable thead th,
+table.dataTable thead td {
+  padding: 10px 18px !important;
+}
